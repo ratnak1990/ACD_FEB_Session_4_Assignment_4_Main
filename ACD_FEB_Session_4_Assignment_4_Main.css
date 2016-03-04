@@ -1,0 +1,44 @@
+.box{
+    display: flex;
+   flex-direction: row;
+    position: absolute;
+    left:500px;
+}
+.box1 {
+    width:100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    text-align: center;
+    background: linear-gradient(to right,red,green);
+ 
+}
+h4
+{
+    text-align:center;
+    margin-top: 40px;
+}
+
+.box2{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left :20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+    
+    
+    background: -moz-radial-gradient(50px 0%, circle, red, yellow, green);
+    
+    }
+.box3 {
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:40px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888888;
+     background: -moz-radial-gradient(50px 0%, ellipse , red, yellow, green);
+    }
